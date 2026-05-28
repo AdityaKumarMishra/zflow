@@ -160,7 +160,7 @@ and `"upstreamStatus": 200`. Switch to Tab A, refresh the PO — the status/comm
 **Portal (supplychainnew.zflow.io):** PO Collaboration template, 14 activities
 - ExtSystem `ZFlowAsWebMethods` → training5 · RestApiFns: SendPoJsonToZFlow, PushASNToWebMethods, PushInvoiceToWebMethods
 
-**SAP:** mocked at `https://httpbin.org/post` (swap `SAP_ERP_Mock.BaseURL` to real SAP for production)
+**SAP:** mocked locally at `https://training.zflow.io/training5/nui/mock_sap.jsp` (reliable; returns SAP-style ack + doc number). Swap `SAP_ERP_Mock.BaseURL` to real SAP for production.
 
 **Not yet built (mention only if asked):** Confirm/Change branching, Quality non-conformance
 sub-process — deferred pending a small metadata addition on the Portal, to be coordinated with the ZFlow team.
