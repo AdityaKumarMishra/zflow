@@ -29,7 +29,7 @@ Three logical systems, two real ZFlow instances + one mock SAP.
 ║   • /nui/middleware_portal_event.jsp   Portal ASN/Invoice ─► BAPI to SAP         ║
 ║   • /nui/middleware_sap_event.jsp      SAP GR/Payment ─► update Portal PO        ║
 ║  Demo console (browser):  /demo.html                                            ║
-║  ExtSystems  Supplier_Portal_New ─► Portal · SAP_ERP_Mock ─► httpbin             ║
+║  ExtSystems  Supplier_Portal_New ─► Portal · SAP_ERP_Mock ─► local SAP mock      ║
 ║  RestApiFns  PushPOToPortal, AdvancePortalActivity, BAPI_InboundDelivery,        ║
 ║              BAPI_Invoice                                                        ║
 ╚═══════════════════════════════════════════════════════════════════════════════╝
