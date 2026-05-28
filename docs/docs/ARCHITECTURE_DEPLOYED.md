@@ -31,8 +31,9 @@ This reflects what is actually running, not the aspirational design.
         │  ▲
         ▼  │  (1) PO release  /  (2) inbound-delivery + invoice BAPI
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║                         SAP (mock = https://httpbin.org/post)                  ║
-║                   swap to real SAP REST/BAPI gateway for production             ║
+║         SAP (mock = https://training.zflow.io/training5/nui/mock_sap.jsp)       ║
+║   reliable local mock; returns SAP-style ack + doc number.                      ║
+║   swap SAP_ERP_Mock.BaseURL to real SAP REST/BAPI gateway for production.       ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
